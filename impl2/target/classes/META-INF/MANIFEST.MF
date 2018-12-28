@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1545988832060
+Build-Jdk: 10.0.1
+Built-By: morteza
+Bundle-Activator: de.thkoeln.eska.osgi.imp2.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: impl2 OSGi Bundle
+Bundle-SymbolicName: de.thkoeln.eska.osgi.imp2.impl2
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: de.thkoeln.eska.osgi.imp2;uses:="org.osgi.framework,de.t
+ hkoeln.eksa.osgi.verwaltung,de.thkoeln.eksa.osgi.sonstigedienste,de.thk
+ oeln.eksa.osgi.entitaetsklassen,de.thkoeln.eksa.osgi.database";version=
+ "1.0.0"
+Import-Package: de.thkoeln.eksa.osgi.database;version="[1.0,2)",de.thkoe
+ ln.eksa.osgi.entitaetsklassen;version="[1.0,2)",de.thkoeln.eksa.osgi.so
+ nstigedienste;version="[1.0,2)",de.thkoeln.eksa.osgi.verwaltung;version
+ ="[1.0,2)",org.osgi.framework;version="[1.6,2)"
+Tool: Bnd-1.50.0

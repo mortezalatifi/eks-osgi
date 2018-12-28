@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1545988918674
+Build-Jdk: 10.0.1
+Built-By: morteza
+Bundle-Activator: de.thkoeln.eksa.osgi.app.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: anwendung OSGi Bundle
+Bundle-SymbolicName: de.thkoeln.eksa.osgi.app.anwendung
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: de.thkoeln.eksa.osgi.app;uses:="de.thkoeln.eksa.osgi.ver
+ waltung,org.osgi.framework,de.thkoeln.eksa.osgi.entitaetsklassen";versi
+ on="1.0.0"
+Import-Package: de.thkoeln.eksa.osgi.entitaetsklassen;version="[1.0,2)",
+ de.thkoeln.eksa.osgi.verwaltung;version="[1.0,2)",org.osgi.framework;ve
+ rsion="[1.6,2)"
+Tool: Bnd-1.50.0

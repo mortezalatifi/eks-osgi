@@ -1,0 +1,5 @@
+de\thkoeln\eksa\osgi\verwaltung\KundeKontoVerwaltung.class
+de\thkoeln\eksa\osgi\sonstigedienste\NummernSpeicher.class
+de\thkoeln\eksa\osgi\database\Database.class
+de\thkoeln\eksa\osgi\entitaetsklassen\Konto.class
+de\thkoeln\eksa\osgi\entitaetsklassen\Kunde.class
